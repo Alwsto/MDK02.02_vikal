@@ -13,7 +13,7 @@
 | Вариант | 5 |
 | Модуль ИС | АИС «Управление студенческой нагрузкой» |
 | Руководитель | Чудинова Александра Анатольевна |
-| Дата | «____» ______________ 20____ г. |
+| Дата | «15»11.2026 г. |
 
 > При переносе отчёта в Word установить шрифт Times New Roman, 14 пт.
 
@@ -25,12 +25,11 @@
 
 | Ключевой артефакт | Содержание и назначение | Файл в комплекте | Формат / состояние | Ответственный и актуализация |
 |---|---|---|---|---|
-| Архитектурный | Границы системы, слои, компоненты, связи и направление зависимостей к Core. | [`artifacts/architecture.md`](artifacts/architecture.md) | Markdown + Mermaid; схема соответствует структуре ПР7. | Tech Lead; обновлять при изменении проектов, границ или зависимостей. |
-| Контрактный | API получения расчётной нагрузки, параметры запроса, модели ответа и ошибки. | [`artifacts/contracts/openapi.yaml`](artifacts/contracts/openapi.yaml) | OpenAPI 3.0.3; endpoint соответствует ПР6–ПР7. | Разработчик API совместно с Tech Lead; изменение контракта отражать в API и клиенте в одном PR или связанных PR. |
-| Кодовой | Исходники Core, Infrastructure, UI и API, Solution и проверки доменных правил. | [`artifacts/codebase.md`](artifacts/codebase.md) | C#/.NET Solution; исходный проект подготовлен в ПР7. | Developer; код меняется через feature/bugfix-ветку и Pull Request по правилам Git Flow. |
-| Управленческий | Регламент ветвления, роли, Pull Request, Code Review и связь изменений с задачами. | [`artifacts/process/CONTRIBUTING.md`](artifacts/process/CONTRIBUTING.md) | Markdown; регламент командной работы ПР5. | Tech Lead; пересматривать при изменении размера команды или политики GitHub. |
+| Архитектурный | Границы системы, слои, компоненты, связи и направление зависимостей к Core. | [`artifacts/architecture.md`](artifacts/architecture.md) | Markdown + Mermaid| Tech Lead; обновлять при изменении проектов, границ или зависимостей. |
+| Контрактный | API получения расчётной нагрузки, параметры запроса, модели ответа и ошибки. | [`artifacts/contracts/openapi.yaml`](artifacts/contracts/openapi.yaml) | OpenAPI 3.0.3 | Разработчик API совместно с Tech Lead; изменение контракта отражать в API и клиенте в одном PR или связанных PR. |
+| Кодовой | Исходники Core, Infrastructure, UI и API, Solution и проверки доменных правил. | [`artifacts/codebase.md`](artifacts/codebase.md) | C#/.NET Solution | Developer; код меняется через feature/bugfix-ветку и Pull Request по правилам Git Flow. |
+| Управленческий | Регламент ветвления, роли, Pull Request, Code Review и связь изменений с задачами. | [`artifacts/process/CONTRIBUTING.md`](artifacts/process/CONTRIBUTING.md) | Markdow | Tech Lead |
 
-Паспорт артефактов — это индекс минимально необходимой документации (MVP Doc). Для каждого файла определены назначение, формат, статус и правило обновления. Артефакты должны изменяться согласованно: например, изменение JSON-ответа требует обновить OpenAPI, API и клиент, а также добавить описание в Pull Request.
 
 ### Схема связей артефактов
 
