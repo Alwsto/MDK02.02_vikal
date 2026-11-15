@@ -1,0 +1,15 @@
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\bin\Debug\net8.0\AIS.Infrastructure.deps.json
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\bin\Debug\net8.0\AIS.Infrastructure.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\bin\Debug\net8.0\AIS.Infrastructure.pdb
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\bin\Debug\net8.0\AIS.Core.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\bin\Debug\net8.0\AIS.Core.pdb
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.AssemblyInfo.cs
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infr.33296513.Up2Date
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\refint\AIS.Infrastructure.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\AIS.Infrastructure.pdb
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Infrastructure\obj\Debug\net8.0\ref\AIS.Infrastructure.dll

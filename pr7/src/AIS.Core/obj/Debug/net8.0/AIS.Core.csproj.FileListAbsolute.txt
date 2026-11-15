@@ -1,0 +1,11 @@
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\bin\Debug\net8.0\AIS.Core.deps.json
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\bin\Debug\net8.0\AIS.Core.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\bin\Debug\net8.0\AIS.Core.pdb
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\AIS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\AIS.Core.AssemblyInfoInputs.cache
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\AIS.Core.AssemblyInfo.cs
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\AIS.Core.csproj.CoreCompileInputs.cache
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\AIS.Core.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\refint\AIS.Core.dll
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\AIS.Core.pdb
+C:\Users\Alwst\Documents\Codex\2026-11-13\referenced-chatgpt-conversation-this-is-an\outputs\pr7\src\AIS.Core\obj\Debug\net8.0\ref\AIS.Core.dll
