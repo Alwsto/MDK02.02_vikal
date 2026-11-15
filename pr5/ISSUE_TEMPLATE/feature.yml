@@ -1,0 +1,40 @@
+name: Новая возможность
+description: Предложить изменение для АИС «Управление студенческой нагрузкой»
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу решаем?
+      description: Опишите потребность пользователя или проблему.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Ожидаемый результат
+      description: Опишите желаемое поведение.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии приёмки
+      description: Перечислите проверяемые условия готовности.
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Область системы
+      options:
+        - Учебные планы
+        - Расчёт нагрузки
+        - Отчёты
+        - Авторизация
+        - Документация
+        - Другое
+    validations:
+      required: true
