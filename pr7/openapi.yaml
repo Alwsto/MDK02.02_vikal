@@ -1,0 +1,92 @@
+openapi: 3.0.3
+info:
+  title: Student Load API
+  version: 1.0.0
+  description: API АИС «Управление студенческой нагрузкой»
+servers:
+  - url: http://localhost:5080
+    description: Локальный учебный сервер
+paths:
+  /api/v1/workloads:
+    get:
+      summary: Получить расчётную нагрузку преподавателей
+      operationId: getWorkloads
+      parameters:
+        - name: academicYear
+          in: query
+          required: false
+          description: Учебный год, например 2026-2027
+          schema:
+            type: string
+            pattern: '^\d{4}-\d{4}$'
+          example: 2026-2027
+        - name: teacherName
+          in: query
+          required: false
+          description: Фильтр по имени преподавателя, без учёта регистра
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 100
+      responses:
+        '200':
+          description: Список строк расчётной нагрузки
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WorkloadItem'
+              example:
+                - teacherId: tch-001
+                  teacherName: Иванова Мария Сергеевна
+                  department: Информатика
+                  academicYear: 2026-2027
+                  plannedHours: 612
+                  status: Рассчитано
+        '400':
+          description: Параметры запроса имеют недопустимый формат
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/Problem'
+        '500':
+          description: Внутренняя ошибка сервера
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/Problem'
+components:
+  schemas:
+    WorkloadItem:
+      type: object
+      additionalProperties: false
+      required: [teacherId, teacherName, department, academicYear, plannedHours, status]
+      properties:
+        teacherId:
+          type: string
+          maxLength: 64
+        teacherName:
+          type: string
+          maxLength: 150
+        department:
+          type: string
+          maxLength: 120
+        academicYear:
+          type: string
+          pattern: '^\d{4}-\d{4}$'
+        plannedHours:
+          type: integer
+          minimum: 0
+        status:
+          type: string
+          enum: [Рассчитано, Требует проверки]
+    Problem:
+      type: object
+      properties:
+        title:
+          type: string
+        status:
+          type: integer
+        detail:
+          type: string
