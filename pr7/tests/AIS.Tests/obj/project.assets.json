@@ -1,0 +1,105 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0": {
+      "AIS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AIS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AIS.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AIS.Core/1.0.0": {
+      "type": "project",
+      "path": "../../src/AIS.Core/AIS.Core.csproj",
+      "msbuildProject": "../../src/AIS.Core/AIS.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AIS.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Alwst\\.nuget\\packages\\": {},
+    "D:\\Programming\\SS\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Alwst\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\pr7\\tests\\AIS.Tests\\AIS.Tests.csproj",
+      "projectName": "AIS.Tests",
+      "projectPath": "C:\\Users\\Alwst\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\pr7\\tests\\AIS.Tests\\AIS.Tests.csproj",
+      "packagesPath": "C:\\Users\\Alwst\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alwst\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\pr7\\tests\\AIS.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Programming\\SS\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Alwst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Alwst\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\pr7\\src\\AIS.Core\\AIS.Core.csproj": {
+              "projectPath": "C:\\Users\\Alwst\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\pr7\\src\\AIS.Core\\AIS.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net8.0": {
+        "framework": "net8.0",
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
