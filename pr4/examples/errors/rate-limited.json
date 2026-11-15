@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "error": {
+    "code": "AUTH_RATE_LIMITED",
+    "message": "Превышено допустимое число попыток. Повторите запрос позже.",
+    "traceId": "00-9b2d-example"
+  }
+}

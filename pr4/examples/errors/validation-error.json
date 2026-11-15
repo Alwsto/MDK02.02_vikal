@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "Поле clientId имеет недопустимый формат.",
+    "traceId": "00-7f3a-example"
+  }
+}

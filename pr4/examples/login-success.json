@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "accessToken": "eyJhbGciOi...example-token",
+  "tokenType": "Bearer",
+  "expiresIn": 900,
+  "user": {
+    "id": "usr-1042",
+    "displayName": "Арсен Хусаинов",
+    "roles": ["Methodist"]
+  }
+}
