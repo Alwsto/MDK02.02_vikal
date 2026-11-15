@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "accessToken": "example-only-token",
+  "tokenType": "Bearer",
+  "expiresIn": 900,
+  "user": {
+    "id": "usr-demo",
+    "displayName": "Демонстрационный пользователь",
+    "roles": ["Methodist"]
+  }
+}

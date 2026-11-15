@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/login-success.schema.json",
+  "title": "LoginSuccess",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["success", "accessToken", "tokenType", "expiresIn", "user"],
+  "properties": {
+    "success": { "const": true },
+    "accessToken": { "type": "string", "minLength": 1 },
+    "tokenType": { "const": "Bearer" },
+    "expiresIn": { "type": "integer", "minimum": 1 },
+    "user": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "displayName", "roles"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "maxLength": 64 },
+        "displayName": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["Methodist", "DepartmentHead", "Administrator"] }
+        }
+      }
+    }
+  }
+}

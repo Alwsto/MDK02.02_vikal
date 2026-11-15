@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/login-request.schema.json",
+  "title": "LoginRequest",
+  "description": "Запрос авторизации в АИС Управление студенческой нагрузкой",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["username", "password", "clientId"],
+  "properties": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 64,
+      "pattern": "^[A-Za-z0-9._@-]{3,64}$",
+      "description": "Логин пользователя"
+    },
+    "password": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 128,
+      "pattern": ".*\\S.*",
+      "description": "Пароль; передавать только по HTTPS, никогда не журналировать"
+    },
+    "clientId": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 64,
+      "pattern": "^[A-Za-z0-9._-]{3,64}$",
+      "description": "Идентификатор зарегистрированного клиента"
+    }
+  }
+}
