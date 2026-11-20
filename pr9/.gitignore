@@ -1,0 +1,57 @@
+# Build output (.NET / WPF / ASP.NET Core)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish/
+[Aa]rtifacts/
+# Test results and code coverage
+[Tt]est[Rr]esults/
+[Cc]overage/
+*.coverage
+*.coveragexml
+*.trx
+# IDE and editor settings
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+# NuGet and local .NET tooling
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+# Local databases and generated data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+!appsettings.json
+!appsettings.Example.json
+# Logs and diagnostic output
+*.log
+logs/
+*.tmp
+*.bak
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+# Local working directories used while preparing reports
+work/
+scratch/
